@@ -46,5 +46,6 @@ while True:
         print(f"Congratulations! You found the treasure in {attempts} attempts!")
         break
     else:
+     grid[row][col] = "X"
      hint = give_hint(treasure_row, treasure_col, row, col)
      print(hint)
