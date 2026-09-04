@@ -14,7 +14,7 @@ print("The jumbled word is: ", x)
 
 score = 0
 rounds = 5
-for i in range(1, rounds + 1):
+for i in range(5):
     jumbled_word , word = jumble_word()
     print(f"Round {i}:")
     print("The jumbled word is: ", jumbled_word)
