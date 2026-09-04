@@ -1,4 +1,4 @@
-import random
+import random,time
 
 print("Welcome to the word jumble!")
 
@@ -28,3 +28,5 @@ for i in range(1, rounds + 1):
     else:
         print(f"Wrong! The correct word was: {word}")
 print(f"Your final score is: {score}/{rounds}")
+time.sleep(10)
+
