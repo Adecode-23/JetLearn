@@ -1,4 +1,5 @@
 from random import randint
+import time
 
 def Grid():
     Megalist=[]
@@ -60,3 +61,6 @@ while True:
      grid[row][col] = "🧑" 
      hint = give_hint(treasure_row, treasure_col, row, col)
      print(hint)
+
+time.sleep(10)
+
